@@ -1,13 +1,16 @@
-Nicolas Revollo's Story
-==============
+---
+title: ""
+---
 
-### Current Position
+# Nicolas Revollo's Story
 
-Master in Business Intelligence and Process Managment Student  
+## Current Position
+
+Master in Business Intelligence and Process Managment Student
 
 Berlin School of Economics and Law
 
-[(https://www.linkedin.com/in/nicolas-revollo-silva-b1a250266/)]
+[LinkedIn](https://www.linkedin.com/in/nicolas-revollo-silva-b1a250266/)
 
 <img src="me.jpeg" alt="myself" width="200"/>
 
@@ -28,8 +31,8 @@ Berlin School of Economics and Law
 
 #### 🎓 Stops Along the Way
 
-| Period   | Location              | Role                            |
-| :------- | :-------------------- | :------------------------------ |
-| 2018–21  | La Paz, Bolivia       | Bachelor in Economics           |
-| 2023–26  | Santa Cruz, Bolivia   | Revenue Analyst, AB-Inbev       |
-| 2026–Now | Berlin, Germany       | Master Student, HWR             |
+| Period | Location | Role |
+| :--- | :--- | :--- |
+| 2018–21 | La Paz, Bolivia | Bachelor in Economics |
+| 2023–26 | Santa Cruz, Bolivia | Revenue Analyst, AB-Inbev |
+| 2026–Now | Berlin, Germany | Master Student, HWR |
