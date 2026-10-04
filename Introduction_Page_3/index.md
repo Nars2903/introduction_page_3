@@ -33,5 +33,3 @@ https://www.linkedin.com/in/nicolas-revollo-silva-b1a250266/
 | 2018–21  | La Paz, Bolivia       | Bachelor in Economics           |
 | 2023–26  | Santa Cruz, Bolivia   | Revenue Analyst, AB-Inbev       |
 | 2026–Now | Berlin, Germany       | Master Student, HWR             |
-
-<iframe src="academic_journey_map.html" width="800" height="600" style="border:none;"></iframe>
