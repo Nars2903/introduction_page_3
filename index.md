@@ -1,10 +1,7 @@
----
-title: ""
----
 
 # Nicolas Revollo's Story
 
-## Current Position
+### Current Position
 
 Master in Business Intelligence and Process Managment Student
 
