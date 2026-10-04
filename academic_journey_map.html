@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c410f7dea3fa773cd322b24f3316fad6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c410f7dea3fa773cd322b24f3316fad6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c410f7dea3fa773cd322b24f3316fad6 = L.map(
+                "map_c410f7dea3fa773cd322b24f3316fad6",
+                {
+                    center: [40.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c0ed2727b6df17a53ccf6ade44d54ccd = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri --- Esri, HERE, Garmin, and contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c0ed2727b6df17a53ccf6ade44d54ccd.addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+    
+            var marker_7b3b0eee40f311347760086739c6d427 = L.marker(
+                [-16.4897, -68.1193],
+                {
+}
+            ).addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+    
+            var icon_2ffd6611a56c7188dbc2feec73569aff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d398c95383d9c15adc1e40f9cdff33a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69638fe7c891ab18b7d985914c3ee073 = $(`<div id="html_69638fe7c891ab18b7d985914c3ee073" style="width: 100.0%; height: 100.0%;">Bachelor in Economics (2018–2021)</div>`)[0];
+                popup_d398c95383d9c15adc1e40f9cdff33a4.setContent(html_69638fe7c891ab18b7d985914c3ee073);
+            
+        
+
+        marker_7b3b0eee40f311347760086739c6d427.bindPopup(popup_d398c95383d9c15adc1e40f9cdff33a4)
+        ;
+
+        
+    
+    
+            marker_7b3b0eee40f311347760086739c6d427.bindTooltip(
+                `<div>
+                     La Paz, Bolivia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b3b0eee40f311347760086739c6d427.setIcon(icon_2ffd6611a56c7188dbc2feec73569aff);
+            
+    
+            var marker_f2d07aba335c7b375fa8cfdfa9c3bb90 = L.marker(
+                [-17.7833, -63.1821],
+                {
+}
+            ).addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+    
+            var icon_7315765eb0269a95175184e8ab5cd026 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51454c8e19df38840faebe6ddc92a3da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb8dad3842269c527de7aa01f3551017 = $(`<div id="html_cb8dad3842269c527de7aa01f3551017" style="width: 100.0%; height: 100.0%;">Revenue Analyst, AB InBev (2023–2026)</div>`)[0];
+                popup_51454c8e19df38840faebe6ddc92a3da.setContent(html_cb8dad3842269c527de7aa01f3551017);
+            
+        
+
+        marker_f2d07aba335c7b375fa8cfdfa9c3bb90.bindPopup(popup_51454c8e19df38840faebe6ddc92a3da)
+        ;
+
+        
+    
+    
+            marker_f2d07aba335c7b375fa8cfdfa9c3bb90.bindTooltip(
+                `<div>
+                     Santa Cruz, Bolivia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2d07aba335c7b375fa8cfdfa9c3bb90.setIcon(icon_7315765eb0269a95175184e8ab5cd026);
+            
+    
+            var marker_4d8fbe0c00adf18c9847e5516f473ec5 = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+    
+            var icon_c9ef425576c48b4bc6ab70da227a09cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d60117d4339f2590a27f1aee58f60a91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76130b8b1736711f5446b600334cbbd6 = $(`<div id="html_76130b8b1736711f5446b600334cbbd6" style="width: 100.0%; height: 100.0%;">Master in Business Intelligence and Process Management (2026–Now)</div>`)[0];
+                popup_d60117d4339f2590a27f1aee58f60a91.setContent(html_76130b8b1736711f5446b600334cbbd6);
+            
+        
+
+        marker_4d8fbe0c00adf18c9847e5516f473ec5.bindPopup(popup_d60117d4339f2590a27f1aee58f60a91)
+        ;
+
+        
+    
+    
+            marker_4d8fbe0c00adf18c9847e5516f473ec5.bindTooltip(
+                `<div>
+                     Berlin, Germany
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4d8fbe0c00adf18c9847e5516f473ec5.setIcon(icon_c9ef425576c48b4bc6ab70da227a09cc);
+            
+    
+            var poly_line_4e9b1dc03f21e7fc618ecbc6d96ed561 = L.polyline(
+                [[-16.4897, -68.1193], [-16.511865534674776, -68.03891309599186], [-16.5340000921231, -67.95850787856381], [-16.556103621595653, -67.87808434322038], [-16.5781760723736, -67.79764248561014], [-16.600217393768826, -67.71718230152592], [-16.62222753512409, -67.63670378690506], [-16.644206445813285, -67.55620693782963], [-16.666154075241614, -67.47569175052666], [-16.688070372845818, -67.39515822136839], [-16.709955288094363, -67.31460634687247], [-16.73180877048769, -67.23403612370217], [-16.75363076955839, -67.15344754866666], [-16.775421234871423, -67.07284061872123], [-16.79718011602435, -66.99221533096743], [-16.81890736264753, -66.91157168265336], [-16.840602924404333, -66.83090967117396], [-16.86226675099136, -66.75022929407106], [-16.883898792138673, -66.66953054903375], [-16.905498997609964, -66.58881343389852], [-16.92706731720284, -66.50807794664951], [-16.948603700748965, -66.42732408541872], [-16.970108098114338, -66.34655184848623], [-16.99158045919949, -66.26576123428036], [-17.013020733939687, -66.18495224137801], [-17.03442887230517, -66.10412486850473], [-17.055804824301372, -66.02327911453501], [-17.077148539969137, -65.94241497849251], [-17.098459969384926, -65.86153245955018], [-17.11973906266106, -65.78063155703053], [-17.14098576994593, -65.6997122704059], [-17.16220004142424, -65.61877459929852], [-17.183381827317184, -65.5378185434808], [-17.20453107788273, -65.45684410287556], [-17.2256477434158, -65.37585127755617], [-17.246731774248513, -65.29484006774676], [-17.267783120750398, -65.21381047382249], [-17.288801733328654, -65.13276249630968], [-17.309787562428333, -65.05169613588598], [-17.330740558532597, -64.97061139338065], [-17.351660672162918, -64.88950826977475], [-17.37254785387936, -64.80838676620121], [-17.39340205428074, -64.72724688394523], [-17.414223224004914, -64.64608862444426], [-17.435011313728975, -64.56491198928833], [-17.455766274169488, -64.48371698022021], [-17.47648805608273, -64.40250359913556], [-17.49717661026493, -64.32127184808314], [-17.517831887552475, -64.24002172926504], [-17.538453838822168, -64.15875324503676], [-17.559042414991445, -64.07746639790753], [-17.579597567018624, -63.996161190540334], [-17.60011924590312, -63.91483762575225], [-17.620607402685703, -63.8334957065145], [-17.641061988448712, -63.75213543595273], [-17.66148295431632, -63.670756817347105], [-17.681870251454725, -63.58935985413254], [-17.70222383107245, -63.50794454989884], [-17.722543644420508, -63.42651090839087], [-17.74282964279271, -63.345058933508774], [-17.76308177752585, -63.26358862930811], [-17.7833, -63.1821]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+    
+            var poly_line_a7da1bca896dd4c49ace1e9edc6f3fdf = L.polyline(
+                [[-17.7833, -63.1821], [-16.51145560249763, -62.20260683488361], [-15.234924919185572, -61.23586622909255], [-13.954137309772445, -60.28073520900459], [-12.669506104547615, -59.336106777019275], [-11.38143031311119, -58.40090655324522], [-10.090296237831813, -57.47408948264341], [-8.796479002224672, -56.55463660904706], [-7.500344004103416, -55.64155191477344], [-6.2022483030246445, -54.73385922239204], [-4.902541951224808, -53.83059915351626], [-3.601569276957175, -52.93082613815884], [-2.2996701288773314, -52.033605467167476], [-0.9971810899054279, -51.13801037948204], [0.3055633311840161, -50.24311917538697], [1.6082295223265708, -49.34801234653972], [2.91048359685355, -48.45176971331563], [4.211990220303019, -47.55346755990809], [5.512411427348899, -46.65217575765405], [6.811405420781053, -45.74695486721993], [8.108625344361835, -44.83685321059287], [9.403718021230464, -43.92090390429391], [10.696322649328868, -42.998121845889806], [11.986069445083414, -42.06750064676636], [13.2725782263017, -41.1280095052842], [14.555456924937594, -40.17859001592979], [15.834300020050115, -39.21815291197291], [17.108686880943154, -38.24557474153869], [18.37818001013803, -37.25969448000927], [19.642323175519635, -36.25931008541727], [20.900639420733267, -35.24317500814257], [22.152628942726395, -34.20999467195999], [23.39776682526867, -33.15842295053109], [24.63550061739642, -32.08705867204365], [25.865247746081984, -30.9944421951748], [27.086392753104807, -29.87905211222362], [28.298284347204792, -28.73930215050523], [29.500232264254826, -27.573538361333796], [30.691503930553274, -26.380036707592268], [31.871320927597772, -25.157001186445555], [33.038855261080606, -23.90256265364826], [34.193225442609936, -22.614778550517492], [35.33349240011703, -21.291633774266643], [36.45865524240822, -19.931042977112433], [37.5676469152506, -18.5308546291486], [38.65932980116367, -17.088857233732945], [39.73249133315226, -15.602788140703623], [40.785839714371015, -14.070345459846429], [41.81799986149813, -12.489203631183138], [42.82750971962091, -10.85703325477813], [43.81281713067, -9.171525813876109], [44.772277475495756, -7.430423932029619], [45.70415235065604, -5.631557775685259], [46.606609583264685, -3.772888134188456], [47.477724928313286, -1.8525565628714702], [48.31548582907908, 0.13105725587662675], [49.11779764764628, 2.1792711110670737], [49.882492782941036, 4.293029446513806], [50.60734308053376, 6.472827324586227], [51.290075893516416, 8.718631052018587], [51.92839406869371, 11.029798128209158], [52.52, 13.405]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c410f7dea3fa773cd322b24f3316fad6);
+        
+</script>
+</html>
