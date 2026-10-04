@@ -7,7 +7,7 @@ Master in Business Intelligence and Process Managment Student
 
 Berlin School of Economics and Law
 
-https://www.linkedin.com/in/nicolas-revollo-silva-b1a250266/
+(https://www.linkedin.com/in/nicolas-revollo-silva-b1a250266/)
 
 <img src="me.jpeg" alt="myself" width="200"/>
 
